@@ -1,6 +1,6 @@
 /* navbar */
 body {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -71,8 +71,8 @@ body {
     overflow: hidden;
     white-space: nowrap;
     animation:
-    typing 3s ease-in-out infinite alternate,
-    cursor 0.4s step-end infinite alternate;
+        typing 3s ease-in-out infinite alternate,
+        cursor 0.4s step-end infinite alternate;
 }
 
 @keyframes cursor {
@@ -82,8 +82,30 @@ body {
 }
 
 @keyframes typing {
-    from{width: 0;}
+    from {
+        width: 0;
+    }
 }
+
+
+/* main */
+.titleText .navbar {
+    background-color: transparent;
+}
+
+.titleText .navbar-nav .nav-link {
+    color: black;
+}
+
+.titleText .nav-link.active:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.titleText .nav-link::before {
+    background-color: black;
+}
+
 
 /* device */
 
@@ -103,7 +125,6 @@ body {
 
     .navbar-nav .nav-link {
         font-size: 16px !important;
-        /* padding: 3px 20px; */
         margin: 0 10px;
     }
 
@@ -116,12 +137,22 @@ body {
         width: fit-content;
     }
 
-    .typer{
+    .typer {
         font-size: 26px !important;
     }
 
-    .carousel-caption span p{
+    .carousel-caption span p {
         font-size: 22px !important;
+    }
+
+    .titleText .navbar,
+    .titleText .navbar .nav-item {
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 26px !important;
     }
 }
 
@@ -136,6 +167,10 @@ body {
     .navbar-nav .nav-link {
         font-size: 12px !important;
         margin: 0 5px;
+    }
+
+    .title {
+        font-size: 20px !important;
     }
 
 }
