@@ -106,9 +106,26 @@ body {
     background-color: black;
 }
 
+.col .card {
+    border: none;
+}
+
+.card-body {
+    padding: 1rem 0 !important;
+    margin: 0 !important;
+}
+
+.card .material-symbols-outlined:hover {
+    background-clip: text;
+    background-color: rgb(250, 71, 101);
+    font-size: 40px;
+}
+
+
 
 /* device */
 
+/* md screen */
 @media (max-width:992px) {
 
     .navbar-brand,
@@ -156,6 +173,7 @@ body {
     }
 }
 
+/* sm screen */
 @media (max-width:576px) {
 
     .navbar-brand,
