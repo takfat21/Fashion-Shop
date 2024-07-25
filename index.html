@@ -19,7 +19,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark m-lg-3 px-lg-3 fixed-top rounded-4">
         <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-medium text-uppercase" href="#">S-Fashion</a>
+            <a class="navbar-brand fs-4 fw-medium text-uppercase font-monospace"
+                href="#carouselExampleFade">S-Fashion</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -28,10 +29,10 @@
             <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleFade">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#shop">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
@@ -79,11 +80,10 @@
     <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active position-relative">
-                <img src="images/fash1.jpg" class="d-block img-fluid" alt="...">
+                <img src="images/slide/fash1.jpg" class="d-block img-fluid" alt="...">
                 <div class="position-absolute bottom-0 end-0 px-2 text-center d-md-none d-block ">
                     <h5 class="text-danger bg-light p-2 px-3 badge">New Arrival!</h5>
                 </div>
-
                 <div
                     class="carousel-caption d-none d-md-flex flex-column align-items-center justify-content-center bottom-0 h-100">
                     <span class="d-inline-block">
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/fash2.jpg" class="d-block img-fluid" alt="...">
+                <img src="images/slide/fash2.jpg" class="d-block img-fluid" alt="...">
                 <div class="position-absolute bottom-0 end-0 px-2 text-center d-md-none d-block">
                     <h5 class="text-danger bg-light p-2 px-3 badge">New Arrival!</h5>
                 </div>
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/fash3.jpg" class="d-block img-fluid" alt="...">
+                <img src="images/slide/fash3.jpg" class="d-block img-fluid" alt="...">
                 <div class="position-absolute bottom-0 end-0 px-2 text-center d-md-none d-block">
                     <h5 class="text-danger bg-light p-2 px-3 badge">New Arrival!</h5>
                 </div>
@@ -122,7 +122,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/fash4.jpg" class="d-block img-fluid" alt="...">
+                <img src="images/slide/fash4.jpg" class="d-block img-fluid" alt="...">
                 <div class="position-absolute bottom-0 end-0 px-2 text-center d-md-none d-block">
                     <h5 class="text-danger bg-light p-2 px-3 badge">New Arrival!</h5>
                 </div>
@@ -149,7 +149,9 @@
     <!-- main -->
 
     <main class="container-fluid">
-        <section class="container py-xl-5 py-lg-4 py-3">
+
+        <!-- Top Catagories -->
+        <section class="container py-xl-5 py-lg-4 py-3" id="sec-1">
             <div class="titleText text-center">
                 <h2 class="title">Top Catagories</h2>
                 <div class="navbar navbar-expand">
@@ -170,7 +172,7 @@
                 class="row row-cols-lg-4 py-xl-5 py-lg-4 py-3 row-cols-md-3  row-cols-2 row-gap-xl-4 row-gap-lg-4 row-gap-3">
                 <div class="col">
                     <div class="card position-relative">
-                        <img src="images/card-man1.jpg" class="card-img-top" alt="...">
+                        <img src="images/top-catag/card-man1.jpg" class="card-img-top" alt="...">
                         <span class="badge bg-warning position-absolute m-2">50% off</span>
                         <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
                             favorite
@@ -187,7 +189,7 @@
                 </div>
                 <div class="col">
                     <div class="card position-relative">
-                        <img src="images/card-man2.jpg" class="card-img-top" alt="...">
+                        <img src="images/top-catag/card-man2.jpg" class="card-img-top" alt="...">
                         <span class="badge bg-warning position-absolute m-2">48% off</span>
                         <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
                             favorite
@@ -203,7 +205,7 @@
                 </div>
                 <div class="col">
                     <div class="card position-relative">
-                        <img src="images/card-man3.jpg" class="card-img-top" alt="...">
+                        <img src="images/top-catag/card-man3.jpg" class="card-img-top" alt="...">
                         <span class="badge bg-warning position-absolute m-2">30% off</span>
                         <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
                             favorite
@@ -219,7 +221,7 @@
                 </div>
                 <div class="col">
                     <div class="card position-relative">
-                        <img src="images/card-man4.jpg" class="card-img-top" alt="...">
+                        <img src="images/top-catag/card-man4.jpg" class="card-img-top" alt="...">
                         <span class="badge bg-warning position-absolute m-2">20% off</span>
                         <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
                             favorite
@@ -232,6 +234,106 @@
                             <a href="#" class="btn btn-outline-success">Buy Now</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Latest products -->
+        <section class="container py-xl-5 py-lg-4 py-3" id="sec-2">
+            <div class="titleText text-center">
+                <h2 class="title">Latest Products</h2>
+                <div class="navbar navbar-expand">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Man</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Woman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kid</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="row row-cols-lg-4 py-xl-5 py-lg-4 py-3 row-cols-md-3  row-cols-2 row-gap-xl-4 row-gap-lg-4 row-gap-3">
+                <div class="col">
+                    <div class="card position-relative">
+                        <img src="images/latest-products/late1.jpg" class="card-img-top" alt="...">
+                        <span class="badge bg-warning position-absolute m-2">50% off</span>
+                        <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
+                            favorite
+                        </span>
+
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="fw-bolder text-danger">Price:</span> $19.2</h5>
+                            <p class="card-text">
+                                Tank Top
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card position-relative">
+                        <img src="images/latest-products/late2.jpg" class="card-img-top" alt="...">
+                        <span class="badge bg-warning position-absolute m-2">48% off</span>
+                        <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
+                            favorite
+                        </span>
+                        <div class="card-body ">
+                            <h5 class="card-title"><span class="fw-bolder text-danger">Price:</span> $30.95</h5>
+                            <p class="card-text">
+                                Cropped Twill Jacket
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card position-relative">
+                        <img src="images/latest-products/late3.jpg" class="card-img-top" alt="...">
+                        <span class="badge bg-warning position-absolute m-2">30% off</span>
+                        <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
+                            favorite
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="fw-bolder text-danger">Price:</span> $18.59</h5>
+                            <p class="card-text">
+                                Vest With Pockets
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card position-relative">
+                        <img src="images/latest-products/late4.jpg" class="card-img-top" alt="...">
+                        <span class="badge bg-warning position-absolute m-2">20% off</span>
+                        <span class="material-symbols-outlined position-absolute top-0 end-0 text-danger p-2">
+                            favorite
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="fw-bolder text-danger">Price:</span> $21.95</h5>
+                            <p class="card-text">
+                                Shirt With Pockets
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-xl-5 py-lg-4 py-3">
+            <div class="position-relative">
+                <img src="images/banner.jpg" class="img-fluid" alt="">
+                <div class="text-center position-absolute top-50 start-50 translate-middle banner-text">
+                    <h5 class="display-4 text-white fw-bold">New Season</h5>
+                    <p class="text-white">New Product Realize Hurry Up To Shoping</p>
+                    <a href="#sec-1" class="btn btn-sm btn-secondary text-uppercase" id="shop">Shop Now</a>
                 </div>
             </div>
         </section>

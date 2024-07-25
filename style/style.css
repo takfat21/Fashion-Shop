@@ -1,6 +1,6 @@
 /* navbar */
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 228, 228);
 }
 
 .navbar {
@@ -49,7 +49,6 @@ body {
 }
 
 
-
 .navbar-toggler {
     border: none;
     color: white !important;
@@ -89,6 +88,16 @@ body {
 
 
 /* main */
+/* section */
+
+#sec-1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#sec-2 .card {
+    background-color: transparent;
+}
+
 .titleText .navbar {
     background-color: transparent;
 }
@@ -115,11 +124,19 @@ body {
     margin: 0 !important;
 }
 
+.card img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
 .card .material-symbols-outlined:hover {
     background-clip: text;
     background-color: rgb(250, 71, 101);
     font-size: 40px;
 }
+
+/* banner */
+
+
 
 
 
@@ -171,6 +188,18 @@ body {
     .title {
         font-size: 26px !important;
     }
+
+    .banner-text h5 {
+        font-size: 28px !important;
+    }
+
+    .banner-text p {
+        font-size: 14px !important;
+    }
+
+    .banner-text a {
+        font-size: 12px !important;
+    }
 }
 
 /* sm screen */
@@ -191,4 +220,15 @@ body {
         font-size: 20px !important;
     }
 
+    .banner-text h5 {
+        font-size: 16px !important;
+    }
+
+    .banner-text p {
+        font-size: 8px !important;
+    }
+
+    .banner-text a {
+        font-size: 6px !important;
+    }
 }
