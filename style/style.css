@@ -95,7 +95,8 @@ body {
 /* section */
 
 #sec-1,
-#sec-4 {
+#sec-4,
+#sec-6 {
     background-color: rgb(255, 255, 255);
 }
 
@@ -140,20 +141,42 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.card .material-symbols-outlined:hover {
+#sec-1 .card .material-symbols-outlined:hover,
+#sec-2 .card .material-symbols-outlined:hover {
     background-clip: text;
     background-color: rgb(250, 71, 101);
     font-size: 40px;
 }
 
-/* banner */
 
+.con-title {
+    font-size: 18px;
+}
 
+.con-sub {
+    font-size: 14px;
+}
 
+#sec-6 .card .material-symbols-outlined:hover {
+    color: red;
+}
 
+.form-group .form-control:focus {
+    box-shadow: none;
+}
+
+#sec-6 textarea:focus {
+    box-shadow: none;
+}
+
+#sec-6 .card {
+    border: 2px orange solid;
+    border-left: none;
+    border-right: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
 
 /* device */
-
 /* md screen */
 @media (max-width:992px) {
 
