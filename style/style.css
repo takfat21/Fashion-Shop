@@ -63,6 +63,21 @@ body {
     outline: none;
 }
 
+nav ul .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+nav ul .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul .dropdown-menu .dropdown-item {
+    background-color: transparent;
+    width: fit-content;
+}
+
+
 
 /* slide show */
 
@@ -235,6 +250,11 @@ body {
     .banner-text a {
         font-size: 12px !important;
     }
+
+    nav ul .dropdown-menu .dropdown-item {
+        padding: 8px 10px;
+        font-size: 14px !important;
+    }
 }
 
 /* sm screen */
@@ -265,5 +285,10 @@ body {
 
     .banner-text a {
         font-size: 6px !important;
+    }
+
+    nav ul .dropdown-menu .dropdown-item {
+        padding: 6px 8px;
+        font-size: 10px !important;
     }
 }
