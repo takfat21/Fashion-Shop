@@ -111,7 +111,8 @@ nav ul .dropdown-menu .dropdown-item {
 
 #sec-1,
 #sec-4,
-#sec-6 {
+#sec-6,
+#sec-7 {
     background-color: rgb(255, 255, 255);
 }
 
@@ -189,6 +190,10 @@ nav ul .dropdown-menu .dropdown-item {
     border-left: none;
     border-right: none;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#sec-7 .material-symbols-outlined {
+    font-size: 50px;
 }
 
 /* footer */
@@ -288,6 +293,18 @@ footer .bi {
         padding: 4px 0;
         font-size: 16px;
     }
+
+    #sec-7 .material-symbols-outlined {
+        font-size: 30px;
+    }
+
+    #sec-7 h3 {
+        font-size: 16px;
+    }
+
+    #sec-7 p {
+        font-size: 12px;
+    }
 }
 
 /* sm screen */
@@ -323,5 +340,17 @@ footer .bi {
     nav ul .dropdown-menu .dropdown-item {
         padding: 6px 8px;
         font-size: 10px !important;
+    }
+
+    #sec-7 .material-symbols-outlined {
+        font-size: 24px;
+    }
+
+    #sec-7 h3 {
+        font-size: 12px;
+    }
+
+    #sec-7 p {
+        font-size: 8px;
     }
 }
