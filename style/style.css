@@ -191,6 +191,26 @@ nav ul .dropdown-menu .dropdown-item {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
+/* footer */
+footer ul li {
+    padding: 12px 0;
+}
+
+footer ul li a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+footer .col p {
+    padding: 8px 0;
+    color: rgb(202, 202, 202);
+}
+
+footer .bi {
+    color: white;
+}
+
+
 /* device */
 /* md screen */
 @media (max-width:992px) {
@@ -254,6 +274,19 @@ nav ul .dropdown-menu .dropdown-item {
     nav ul .dropdown-menu .dropdown-item {
         padding: 8px 10px;
         font-size: 14px !important;
+    }
+
+    footer h4 {
+        font-size: 18px;
+    }
+
+    footer ul li {
+        padding: 12px 0;
+    }
+
+    footer .col p {
+        padding: 4px 0;
+        font-size: 16px;
     }
 }
 
